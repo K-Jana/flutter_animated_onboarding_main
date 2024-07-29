@@ -1,0 +1,88 @@
+{
+"intents": [
+  {
+    "tag": "greeting",
+    "patterns": [
+      "Hi Hello",
+      "Hello",
+      "Hey",
+      "Good day",
+      "Howdy"
+    ],
+    "responses": [
+      "Hello! How can I assist you today?",
+      "Hi there! How are you doing?",
+      "Hey! What can I help you with today?"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "whatsup",
+    "patterns": [
+      "Whats up",
+      "Wazzup",
+      "How are you",
+      "sup",
+      "How you doing"
+    ],
+    "responses": [
+      "All good..What about you?"
+    ]
+  },
+  {
+    "tag": "greeting",
+    "patterns": [
+      "Hi",
+      "Hey",
+      "Hello",
+      "Hi there",
+      "Howdy"
+    ],
+    "responses": [
+      "Hello! I'm Learnera. How can I assist you today?",
+      "Hi! I'm Learnera. What brings you here?",
+      "Hey there! I'm Learnera. What can I help you with?"
+    ]
+  },
+  {
+    "tag": "goodbye",
+    "patterns": [
+      "Bye",
+      "See you later",
+      "Goodbye"
+    ],
+    "responses": [
+      "Goodbye! Take care.",
+      "See you later! Feel free to reach out anytime.",
+      "Bye! Have a great day."
+    ]
+  },
+  {
+    "tag": "thanks",
+    "patterns": [
+      "Thanks",
+      "Thank you",
+      "That's helpful",
+      "Thanks for the help"
+    ],
+    "responses": [
+      "You're welcome!",
+      "Glad I could help.",
+      "Anytime!"
+    ]
+  },
+  {
+    "tag": "about_bot",
+    "patterns": [
+      "Who are you?",
+      "What are you?",
+      "Tell me about yourself",
+      "Are you a bot?"
+    ],
+    "responses": [
+      "I am FocusFriend, an ADHD assistance chatbot designed to provide information and support.",
+      "I'm here to help you manage and understand ADHD better.",
+      "I'm an AI chatbot specialized in ADHD-related queries and support."
+    ]
+  },
+}
